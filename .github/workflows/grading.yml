@@ -1,11 +1,12 @@
 name: Grading workflow
 on:
-  # First trigger is totally unknown
+  push:
+
   workflow_dispatch:
 
 jobs:
   grade-learner:
-    # if: github.event_name == 'push'
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
