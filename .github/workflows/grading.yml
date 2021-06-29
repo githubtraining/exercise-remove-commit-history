@@ -27,4 +27,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: troubleshooting steps
-        run: echo "If you're stuck, this documentation may be helpful; https://git-scm.com/docs/gitignore"
+        run: echo "If you're stuck, this documentation may be helpful; https://some-real-docs.com"
