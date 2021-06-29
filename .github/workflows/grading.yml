@@ -27,4 +27,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: troubleshooting steps
-        run: echo "If you're stuck, this documentation may be helpful; https://some-real-docs.com"
+        run: echo "If you're stuck, this documentation may be helpful; https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository"
