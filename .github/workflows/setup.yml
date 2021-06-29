@@ -4,7 +4,7 @@ on: push
 jobs:
   setup-repo:
     runs-on: ubuntu-latest
-    if: github.event.commits[0].message == 'Initial commit'
+    if: github.event.commits[0].message == 'Initial commit' && github.repository != 'githubtraining/exercise-remove-commit-history'
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
