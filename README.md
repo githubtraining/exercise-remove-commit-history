@@ -48,6 +48,9 @@ Use these to help you!
 Resources specific to this exercise:
 
 <!-- - Add further resources for the learner -->
+- [Removing sensitive data from a repository] - GitHub Docs
+- [BFG repo cleaner] - Tool homepage
+- [git filter-repo] - Tool repository
 
 Resources for working with exercises and GitHub Actions in general:
 
@@ -61,6 +64,10 @@ Resources for working with exercises and GitHub Actions in general:
 Links used throughout this README:
 -->
 <!-- Edit the links below to be relevant -->
+
+[Removing sensitive data from a repository]: https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
+[BFG repo cleaner]: https://rtyley.github.io/bfg-repo-cleaner/
+[git filter-repo]: https://github.com/newren/git-filter-repo/
 
 [creating a repository from a template]: https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
 [viewing workflow run history]: https://docs.github.com/en/actions/managing-workflow-runs/viewing-workflow-run-history
