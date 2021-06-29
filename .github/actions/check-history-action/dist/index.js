@@ -487,7 +487,7 @@ module.exports = async () => {
             isCorrect: true,
             display_type: "actions",
             level: "info",
-            msg: "Great job!  You have successfully configured the sensitive info from this repo.",
+            msg: "Great job!  You have successfully removed the sensitive info from this repo.",
             error: {
               expected: "",
               got: "",
