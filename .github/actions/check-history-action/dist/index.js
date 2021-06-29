@@ -459,10 +459,6 @@ const github = __webpack_require__(312);
 const core = __webpack_require__(418);
 
 module.exports = async () => {
-  const expectedNumberOfCommits = 6;
-  const removedCommitMessage =
-    "I know I shouldn't commit secrets, but here we are 🤷";
-
   const token = core.getInput("token");
   const octokit = github.getOctokit(token);
 
