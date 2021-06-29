@@ -12,6 +12,8 @@ jobs:
       - name: Grade gitignore activity
         id: events
         uses: ./.github/actions/check-history-action
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Grading results
         uses: githubtraining/looking-glass-action@v0.2.0
