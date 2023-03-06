@@ -1,6 +1,9 @@
 name: Initial repo configuration
 on: push
 
+permissions:
+  contents: write
+
 jobs:
   setup-repo:
     runs-on: ubuntu-latest
