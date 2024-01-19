@@ -17,7 +17,9 @@ This exercise checks your knowledge on removing a commit from the git history of
 Please complete the instructions below:
 
 1. Create your own copy of this repository by using the [Use this template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template) button.
-2. Remove all references to the `.env` file which contains sensitive data from the repository. 
+2. Go to settings > Actions > General and change the workflow permissions to "Read and write permissions"
+3. (if the 'Initial repo configuration' workflow has already run you will need to rerun it)
+4. Complete the task to remove all references to the `.env` file which contains sensitive data from the repository. 
 
 You do not need to contact GitHub Support to remove cached commits and complete this exercise.
 
